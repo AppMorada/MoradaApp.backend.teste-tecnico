@@ -12,19 +12,17 @@ Ao concluir o requisito, apenas substitua o status final para 'Ok' ao invés de 
 | 002 | O candidato obrigatoriamente deve sugerir no mínimo uma alteração a ser feita no contrato com a intenção de corrigir determinadas vulnerabilidades | Preterido |
 | 003 | O sistema deve seguir o ERD elaborado em database.dbml e disponível no [dbdocs](https://dbdocs.io/N%C3%ADcolas%20Cleiton/MoradaAppTest) | Preterido |
 | 004 | O sistema deve conter no mínimo testes unitários | Preterido |
-| 005 | O sistema deve ter todas as mensagens das responses retornadas pelo servidor em português | Preterido |
-| 006 | O sistema deve adotar boas práticas de desenvolvimento de software como o DDD | Preterido |
-| 007 | O candidato deve, de maneira obrigatória, implementar o algoritmo de criptografia bcrypt | Preterido |
+| 005 | O candidato deve, de maneira obrigatória, implementar o algoritmo de criptografia bcrypt nos pontos em que o mesmo achar critíco |
 
 
 ## Diferenciais adotados
-Caso algum diferencial tenha sido adotado, substitua o enunciado pela resposta, caso contrário, apenas substitua para 'Preterido':
+Caso algum diferencial tenha sido adotado, substitua o enunciado pela resposta, caso contrário, apenas substitua para 'Preterido'. Não se preocupe caso alguns deles não tenha sido concluído:
 
-| Nome | Descrição |
-| :--: | :-------: |
-| **Docker e Docker Compose** | Adotou as ferramentas indicadas? |
-| **Organização** | Quais ferramentas você usou para melhorar seu fluxo de trabalho no teste? |
-| **Github Actions** | Descreva aqui as pipelines que você criou | 
-| **Tempo de entrega** | **Deixar vázio e aguardar preenchimento** |
-| **Refatoração de contrato** | Indique as alterações que você fez de maneira curta e o tempo que você levaria para implementar as alterações |
-| **Refatoração do ERD** | Indique o que você alterou de maneira curta e o tempo que levaria para refatorar o código, caso essas alterações fossem aprovadas |
+| Importância | Nome | Descrição |
+| ----------- | :--: | :-------: |
+| 1 | **Docker e Docker Compose** | Adotou as ferramentas indicadas? |
+| 2 | **Organização** | Quais ferramentas você usou para melhorar seu fluxo de trabalho no teste? |
+| 3 | **Github Actions** | Descreva aqui as pipelines que você criou | 
+| 4 | **Refatoração de contrato** | Indique as alterações que você fez de maneira curta e concisa, além disso, o tempo que você levaria para implementar as alterações |
+| 5 | **Refatoração do ERD** | Indique o que você alterou de maneira curta e o tempo que levaria para refatorar o código, caso essas alterações fossem aprovadas |
+| 6 | **Sistema em português** | Seu sistema possui todas as responses em português? Sim/Não |
