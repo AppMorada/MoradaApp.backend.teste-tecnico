@@ -22,12 +22,11 @@ Desevolver um CRUD básico de usuários com um processo simples de autenticaçã
 Após a conclusão do teste, o candidato deve renomear o arquivo template.md para README.md e preencher o seu conteúdo.
 
 ### Diferenciais (NÃO É OBRIGATÓRIO)
-Caso o candidato deseja se destacar no processo seletivo, recomenda-se realizar algumas das seguintes implementações de sua própria preferência:
+Caso o candidato deseja se destacar no processo seletivo, recomenda-se realizar algumas das seguintes implementações, ordenadas pela relevância:
 1. **Docker**: é preferivel que o candidato opte por utilizar o docker e o docker compose para facilitar a execução em diferentes ambientes;
-2. **Organização**: quanto mais o fluxo de trabalho que o dev usar for organizado, mais ele estará próximo de sua adimissão, ou seja, implementações como o eslint, prettier, husky e outras ferramentas são extremamente bem vistas;
-3. **Github Actions**: será bem visto a implementação de pipelines de CI/CD utilizando o Github Actions. No caso das pipelines de deploy, o candidato deve se preocupar em implantar seu código utilizando o Dockerhub;
-4. **Refatoração de contrato**: além das sugestões de possíveis alterações que são obrigatorias, o candidato pode refatorar o contrato elaborado da API, sugerindo novos fluxos para serem implementados tanto no processo de autenticação, quanto no próprio CRUD do usuário e indicar o tempo que levaria de implementação, dentro do README.md, caso esse novo contrato fosse admitido
-5. **Refatoração do ERD**: se no processo de refatoração do contrato, o candidato sentir a necessidade de alterar algum conteúdo do ERD, o mesmo deve realizar as alterações usando a linguagem DBML no arquivo /database.dbml
-6. **Sistema em português**: sistemas com responses totalmente em português são muito bem aceitos
+2. **Organização**: quanto mais o fluxo de trabalho que o dev usar for organizado, mais ele estará próximo de sua admissão, ou seja, implementações como o eslint, prettier, husky e outras ferramentas são extremamente bem vistas;
+3. **Sistema em português**: sistemas com responses totalmente em português são muito bem aceitos;
+4. **Refatoração de contrato**: além das sugestões de possíveis alterações que são obrigatorias, o candidato pode refatorar o contrato elaborado da API e armazenar em /swagger/openapi-new.json, sugerindo novos fluxos para serem implementados tanto no processo de autenticação, quanto no próprio CRUD do usuário e indicar o tempo que levaria de implementação, dentro do novo README.md, caso esse novo contrato fosse admitido e autorizado a sua devida implementação;
+5. **Refatoração do ERD**: se no processo de refatoração do contrato, o candidato sentir a necessidade de alterar algum conteúdo do ERD, o mesmo deve realizar as alterações usando a linguagem DBML, copiando o arquivo /database.dbml para /database-new.dbml.
 
 ATENÇÃO: estas implementações não são obrigatórias, servindo apenas como um guia para o candidato que deseja se destacar.
